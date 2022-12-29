@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    padding-top: 40px;
+    font: 3em Tahoma, arial, helvetica, sans-serif;
+}
+
+h2{
+    font: 2em Tahoma, Geneva, Verdana, sans-serif;
+}
+h1, h2 {
+    padding-left: 20px;
+}
+ul{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(84, 77, 77);
+}
+ul li {
+    height: 40px;
+    text-align: center;
+    position: relative;
+    float: left;
+    list-style: none;
+    line-height: 40px;
+    padding: 0 20px;
+    display: block;
+    color: white;
+}
+
+ul .login {
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 64px;
+}
+
+.login img {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+p {
+    padding-left: 20px;
+}
+
+ul li:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+
+.footer {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(128, 120, 120);
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    color: white;
+    line-height: 50px;
+    float: left;
+}
+ 
+.lefter {
+    height: 100%;
+    background-color: rgb(227, 233, 233);
+    width: 15%;
+}
+
+.righter {
+    height: 100%;
+    background-color: rgb(227, 233, 233);
+    width: 20%;
+}
+
+.div1 {
+    background-color: aquamarine;
+    width: 65%;
+}
+
+.div2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
